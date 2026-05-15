@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Statuses</h2>
+<ul>
+  {% for s in statuses %}
+    <li>{{ s.status_name }} ({{ s.companies|length }} companies)</li>
+  {% endfor %}
+</ul>
+{% endblock %}
