@@ -4,6 +4,9 @@ import os
 
 def create_app():
     app = Flask(__name__)
+    app.config["SECRET_KEY"] = os.environ.get(
+        "SECRET_KEY", "dev-secret-key-change-me"
+    )
     app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get(
         "DATABASE_URL", "sqlite:///companies.db"
     )

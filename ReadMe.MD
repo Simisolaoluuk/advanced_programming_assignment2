@@ -103,7 +103,7 @@ pytest
 
 ## Deployment
 
-This application can be deployed to platforms like Heroku or Render. The `Procfile` (if present) is configured for deployment.
+This application was deployed to Render (https://simisola-olu-uk-companies-explorer-site.onrender.com). 
 
 ## Contributing
 
@@ -112,10 +112,6 @@ This application can be deployed to platforms like Heroku or Render. The `Procfi
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
